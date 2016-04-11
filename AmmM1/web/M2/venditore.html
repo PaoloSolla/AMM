@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <title>Pagina del Venditore-Inserisci un nuovo articolo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Paolo Solla">
+        <meta name="description" content="vendita pizza a domicilio">
+    </head>
+    <body>
+         <div id="header"><h1>PizzaDrone!</h1>
+            </div>
+        <div id="content">
+            <h2>Inserisci un nuovo articolo</h2>
+            <div id="form">
+            <form action="venditore.html" method="post">
+                <label for="img">Indirizzo dell'immagine</label><br />
+                <input type="url" name="img" id="img" value="" />
+                <br/>
+                
+                <label for="item">None dell'oggetto</label><br />
+                <input type="text" name="item" id="item" value="" />
+                <br/>
+                
+                <label for="description">Descrizione oggetto</label><br />
+                <textarea id="textarea" rows="3" cols="20" name="description" id="description">
+                </textarea>
+                <br/>
+                
+                <label for="quantity">Quantità</label><br />
+                <input type="text" name="quantity" id="quantity" value="" />
+                <br/>
+                
+                <label for="price">Prezzo</label><br />
+                <input type="text" name="price" id="price" value="" />
+                <br/>
+                <br/>
+                <input type="submit" name="commit" value="submit">
+            </form>
+            <br/>
+            <br/>
+        </div>
+        </div>
+        <div id="sidebar1">
+            <h3>Navigazione</h3>
+                <a href="descrizione.html">Vai alla pagina di Descrizione</a>
+                <br/>
+                <a href="login.html">Torna al login</a>
+        </div>
+        <div id="footer">
+	          FOOTER
+	<p>2016 a cura di mario</p>
+        </div>
+			
+        
+    </body>
+</html>
